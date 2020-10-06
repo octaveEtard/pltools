@@ -1,2 +1,2 @@
 # pltools
-Matlab plotting tools to make pretty / publication-ready figures
+Matlab plotting tools to make pretty, publication ready figures.
