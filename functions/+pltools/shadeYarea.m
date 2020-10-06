@@ -1,7 +1,7 @@
 function p = shadeYarea(ax,x,yMin,yMax,varargin)
 %
 % pltools.shadeYarea
-% Part of the pltools package.
+% Part of the pltools package (github.com/octaveEtard/pltools).
 % Author: Octave Etard, 2020
 %
 % Shade area alongside x, between yMin and yMax

@@ -1,7 +1,7 @@
 function formatAxisLabels(graphObj,varargin)
 %
 % pltools.formatAxisLabels
-% Part of the pltools package.
+% Part of the pltools package (github.com/octaveEtard/pltools).
 % Author: Octave Etard, 2020
 %
 %% default values

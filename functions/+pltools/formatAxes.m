@@ -1,7 +1,7 @@
 function axes = formatAxes(axes, xOffset, yOffset, width, height)
 %
 % pltools.formatAxes
-% Part of the pltools package.
+% Part of the pltools package (github.com/octaveEtard/pltools).
 % Author: Octave Etard, 2020
 %
 % formatAxes Format axes in 'axes' so that the tight bounding box of the

@@ -1,7 +1,7 @@
 function txt = topLeftLabel(ax,label,fts)
 %
 % pltools.topLeftLabel
-% Part of the pltools package.
+% Part of the pltools package (github.com/octaveEtard/pltools).
 % Author: Octave Etard, 2020
 %
 if nargin < 3 

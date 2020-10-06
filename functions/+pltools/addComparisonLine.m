@@ -1,7 +1,7 @@
 function l = addComparisonLine(ax,x,y,dy,varargin)
 %
 % pltools.shadeYarea
-% Part of the pltools package.
+% Part of the pltools package (github.com/octaveEtard/pltools).
 % Author: Octave Etard, 2020
 %
 if numel(dy) == 1

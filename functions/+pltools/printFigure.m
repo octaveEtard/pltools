@@ -1,7 +1,7 @@
 function printFigure(figHandle, pathToFolder, fileName, resolution, widthPaper, heightPaper, w, h, doPrint, format, doScale)
 %
 % pltools.printFigure
-% Part of the pltools package.
+% Part of the pltools package (github.com/octaveEtard/pltools).
 % Author: Octave Etard, 2020
 %
 if nargin< 9
@@ -35,7 +35,7 @@ figHandle.PaperPosition = [0, 0, widthPaper heightPaper];
 
 if doScale
     axes = figHandle.Children(arrayfun(@(x) any(strcmp(x.Type, {'axes','colorbar'})), figHandle.Children));
-    formatAxes(axes, (1-w)/2, (1-h)/2, w, h);
+    pltools.formatAxes(axes, (1-w)/2, (1-h)/2, w, h);
 end
 
 % if doPrint
